@@ -28,7 +28,7 @@ yarn install
 
 By executing this command, all the required dependencies will be installed, allowing you to start exploring and developing with the SolarPunk dApp. Embrace the power of the Web3 space and immerse yourself in the SolarPunk Lens experience.
 
-# Setting Up Your Private Keys in the .env File
+## Setting Up Your Private Keys in the .env File
 
 To ensure the security and privacy of your private keys, it is recommended to store them in a separate file called .env. This file is not included in version control, providing an extra layer of protection for your sensitive information.
 
