@@ -1,6 +1,6 @@
 TODO:
 
-deploy a dynamic NFT contract SolarPunk collection on the networks:
+deploy a dynamic contract SolarPunk collection on the networks:
 -Scroll
 -Mantel
 -Taiko
