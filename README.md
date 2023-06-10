@@ -23,7 +23,7 @@ The "solar-client" folder within this repository contains the SolarPunk dApp tha
 To set up the necessary dependencies, use the following command:
 
 ```shell
-yarn install
+yarn
 ```
 
 By executing this command, all the required dependencies will be installed, allowing you to start exploring and developing with the SolarPunk dApp. Embrace the power of the Web3 space and immerse yourself in the SolarPunk Lens experience.
