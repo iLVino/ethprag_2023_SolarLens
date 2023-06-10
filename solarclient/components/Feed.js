@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { client } from '../api';
 import { feedPosts } from '../pages/api/allApis';
 import ProfileStyles from '../styles/Profile.module.css';
+import Link from 'next/link';
 
 
 const Feed = () => {
@@ -23,6 +24,7 @@ const Feed = () => {
   return (
     <div className='container mt-5'>
       {posts.map((post, i) => (
+       // <Link href={`/profile/${profile.id}`}>
         <div className='card mb-3' key={i}>
           <div className='card-body'>
             <div className='row mb-4'>
@@ -51,6 +53,7 @@ const Feed = () => {
             
           </div>
         </div>
+       // </Link>
       ))}
     </div>
   );

@@ -7,4 +7,3 @@ deploy a dynamic contract SolarPunk collection on the networks:
 -zkSync
 and integrate it with lens
 
-frontend part from near
