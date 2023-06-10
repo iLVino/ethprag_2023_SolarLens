@@ -19,7 +19,6 @@ const Feed = () => {
       console.log(error);
     }
   };
-
   return (
     <div className='container mt-5'>
       {posts.map((post, i) => (
