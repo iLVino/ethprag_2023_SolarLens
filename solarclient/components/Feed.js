@@ -3,6 +3,7 @@ import { client } from '../api';
 import { feedPosts } from '../pages/api/allApis';
 import ProfileStyles from '../styles/Profile.module.css';
 
+
 const Feed = () => {
   const [posts, setPosts] = useState([]);
 
@@ -44,7 +45,7 @@ const Feed = () => {
                 />
               </div>
               <div className='col-11'><p>{post.profile.handle}</p>
-              <div className='row'><div className='card-text text-muted'>{post.metadata.content}</div></div>
+              <div className='row'><div className='card-text text-muted'>{post.metadata.content.text}</div></div>
               </div>
             </div>
             
