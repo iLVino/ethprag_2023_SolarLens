@@ -16,9 +16,8 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 
-## 
 
-The "solar-client" Folder: Building the SolarPunk dApp with Lens Protocol
+## The "solar-client" Folder: Building the SolarPunk dApp with Lens Protocol
 The "solar-client" folder within this repository contains the SolarPunk dApp that harnesses the power of the Lens protocol. By integrating with Lens, the dApp gains access to valuable functionalities and capabilities.
 
 To set up the necessary dependencies, use the following command:
