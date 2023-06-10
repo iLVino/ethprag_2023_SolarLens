@@ -15,6 +15,8 @@ npx hardhat run scripts/deploy.js
 ```
 # solar client folder contains dApp SolarPank dApp that leverages Lens protocol
 
+```shell
 yarn to install dependencies
+```
 
 
