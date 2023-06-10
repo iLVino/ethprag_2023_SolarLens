@@ -51,5 +51,16 @@ By setting up your private keys in the .env file, you can access them securely w
 With your private keys properly configured, you can now interact with the SolarPunk Lens project and the SolarPunk dApp, leveraging the power of Web3 technology while ensuring the privacy and security of your keys.
 
 
+## smart contract addresses
+Scrol:
+https://blockscout.scroll.io/address/0x32378D727F1B25919D4F0da08FB0C1B5521d33df/write-contract#address-tabs
+
+Mantle:
+https://explorer.testnet.mantle.xyz/address/0x66052E3fF41a2eC6a88AC39Ae2A4f4e49FDF12Cc/write-contract#address-tabs
+
+Taiko:
+https://explorer.test.taiko.xyz/address/0x66052E3fF41a2eC6a88AC39Ae2A4f4e49FDF12Cc/contracts#address-tabs
+
+
 
 

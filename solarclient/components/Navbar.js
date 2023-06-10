@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className='container-fluid'>
         <a className='navbar-brand' href='/'>
           SolarPank-Lens Social Media
-          /n news from SolarPunc community
+          news from SolarPunc community
         </a>
         <button
           className='navbar-toggler'

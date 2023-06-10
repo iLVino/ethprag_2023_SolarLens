@@ -1,6 +1,11 @@
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
+//import { createClient } from 'urql'
 
 const API_URL = 'https://api-mumbai.lens.dev'
+
+// export const client = new createClient({
+//   url: API_URL
+// })
 
 export const client = new ApolloClient({
   uri: API_URL,
@@ -155,3 +160,23 @@ export const CreatePostTypedData  = gql`mutation CreatePostTypedData {
       }
     }
   }`
+
+  export const recommendProfiles = `
+  query RecommendedProfiles {
+    recommendedProfiles {
+        id
+        name
+        picture {
+          ... on MediaSet {
+            original {
+              url
+            }
+          }
+        }
+        handle
+        stats {
+          totalFollowers
+        }
+    }
+  }
+`
