@@ -61,6 +61,9 @@ https://explorer.testnet.mantle.xyz/address/0x66052E3fF41a2eC6a88AC39Ae2A4f4e49F
 Taiko:
 https://explorer.test.taiko.xyz/address/0x66052E3fF41a2eC6a88AC39Ae2A4f4e49FDF12Cc/contracts#address-tabs
 
+Base:
+https://goerli.basescan.org/tx/0x128d3ee9eccd80d4f456e021adf260d1ff5f9ffd5e871a27f506d6afe181d518
+
 
 
 
